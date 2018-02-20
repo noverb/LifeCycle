@@ -41,11 +41,30 @@ namespace LifeCycle
 			}
 		}
 		
+		public partial class Drawable
+		{
+			
+			// aapt resource value: 0x7f020000
+			public const int ic_notification = 2130837504;
+			
+			static Drawable()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Drawable()
+			{
+			}
+		}
+		
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f040000
-			public const int txtMessage = 2130968576;
+			// aapt resource value: 0x7f050001
+			public const int txtMessage = 2131034113;
+			
+			// aapt resource value: 0x7f050000
+			public const int txtOrientation = 2131034112;
 			
 			static Id()
 			{
@@ -60,8 +79,8 @@ namespace LifeCycle
 		public partial class Layout
 		{
 			
-			// aapt resource value: 0x7f020000
-			public const int Main = 2130837504;
+			// aapt resource value: 0x7f030000
+			public const int Main = 2130903040;
 			
 			static Layout()
 			{
@@ -76,8 +95,8 @@ namespace LifeCycle
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f030000
-			public const int app_name = 2130903040;
+			// aapt resource value: 0x7f040000
+			public const int app_name = 2130968576;
 			
 			static String()
 			{
